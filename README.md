@@ -1,14 +1,14 @@
 # Selenium Homepage Test
 
 ## Project Overview
-This project automates homepage testing using Selenium WebDriver and Python.
+This project automates the testing of a homepage using Selenium WebDriver and Python. The script opens the website, verifies page elements, scrolls through the page, and captures a screenshot for validation.
 
 ## Features
-- Opens the target website
-- Validates homepage elements
-- Scrolls through the page
-- Captures screenshot
-- Automated browser testing
+- Automated browser launch
+- Homepage validation
+- Page scrolling using Selenium
+- Screenshot capture
+- Basic UI testing
 
 ## Technologies Used
 - Python
@@ -18,9 +18,27 @@ This project automates homepage testing using Selenium WebDriver and Python.
 - GitHub
 
 ## Project Structure
-- test_homepage.py
-- main.py
-- homepage.png
+```
+main.py/
+├── main.py
+├── test_homepage.py
+├── homepage.png
+```
+
+## How to Run
+
+1. Install Selenium
+```bash
+pip install selenium
+```
+
+2. Run the test
+```bash
+python test_homepage.py
+```
+
+## Output
+The test generates a screenshot file named `homepage.png` after successful execution.
 
 ## Author
-Muskan Srivastava
+Muskan
